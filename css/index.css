@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    min-width: 320;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    float: right;
+	margin-top: 30px;
+}
+
+.nav-list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover {
+    color: red;
+}
+
+header {
+    background-image: url("../css/img/1.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    height: auto;
+    font-size: 12px;
+}
+
+.header-info {
+    display: flex;
+}
+
+.logo-pecodee {
+   width: 100%;
+}
+
+.form {
+    text-align: center;
+    display: grid;
+}
+
+.feedback-form {
+    display: grid;
+
+}
+
+.main-header {
+
+}
+
+.menu-fon {
+    width: 70%;
+
+}
