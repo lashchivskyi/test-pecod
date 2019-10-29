@@ -1,7 +1,6 @@
 body {
-    margin: 0 auto;
     padding: 0;
-    min-width: 320;
+    margin: 0;
 }
 
 .nav-list {
@@ -16,6 +15,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+    margin-left: 30px;
 }
 
 .nav-list a:hover {
@@ -31,12 +31,19 @@ header {
     font-size: 12px;
 }
 
+.container {
+    margin: 0 auto;
+    min-width: 1280;
+}
+
 .header-info {
     display: flex;
+    justify-content: center;
 }
 
 .logo-pecodee {
    width: 100%;
+   width: px;
 }
 
 .form {
@@ -45,7 +52,6 @@ header {
 }
 
 .feedback-form {
-    display: grid;
 
 }
 
@@ -54,6 +60,16 @@ header {
 }
 
 .menu-fon {
-    width: 70%;
-
+    width: 90%;
 }
+
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, a, img, form, button{
+    box-sizing: border-box;
+}
+
