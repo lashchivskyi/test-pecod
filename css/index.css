@@ -1,6 +1,10 @@
 body {
-    padding: 0;
-    margin: 0;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 980px;
 }
 
 .nav-list {
@@ -8,7 +12,7 @@ body {
     justify-content: space-around;
     list-style-type: none;
     float: right;
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .nav-list a {
@@ -31,45 +35,11 @@ header {
     font-size: 12px;
 }
 
-.container {
-    margin: 0 auto;
-    min-width: 1280;
+.logo-pecodee {
+    width: 100%;
 }
 
-.header-info {
+.header-form {
     display: flex;
     justify-content: center;
 }
-
-.logo-pecodee {
-   width: 100%;
-   width: px;
-}
-
-.form {
-    text-align: center;
-    display: grid;
-}
-
-.feedback-form {
-
-}
-
-.main-header {
-
-}
-
-.menu-fon {
-    width: 90%;
-}
-
-ul, li{
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-
-div, p, a, img, form, button{
-    box-sizing: border-box;
-}
-
