@@ -90,13 +90,18 @@ header .main-nav:after {
 .container-second {
     margin: 0 auto;
     max-width: 980px;
-    text-align: center;
     padding: 20px 0 20px;
+}
+
+.srting {
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .one {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 40px;
 }
 
 .two {
@@ -108,15 +113,36 @@ header .main-nav:after {
 .requirement-foto {
     display: block;
     width: 100%;
-
+    height: auto;
 }
 
 .product {
     margin: 1em 1em;
     border-radius: 5px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    padding: 10px 5px;
+    box-shadow: 0 0 30px 5px #ebebeb;
+    padding: 0px 10px;
+    background-color: #fafafa;
+
 }
 
 
 /*  container-second end  */
+.container-third {
+    background-color: #1ea992;
+    background-image: url("../css/img/2.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 55% auto;
+    height: 488px;
+}
+
+.cont {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 20px 0 20px;
+}
+
+.class-help {
+    display: flex;
+    text-align: right;
+}
