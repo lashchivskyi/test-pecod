@@ -3,11 +3,14 @@ body {
 	padding: 0;
 	width: 100%;
 	height: auto;
-
 }
+
+/* container */
+
 .container {
     margin: 0 auto;
     max-width: 980px;
+
 }
 
 .nav-list {
@@ -36,17 +39,18 @@ header {
     background-size: 75% auto;
     height: auto;
     font-size: 12px;
-    padding-bottom:
 }
 
 .logo-pecodee {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .header-form {
     display: flex;
     justify-content: center;
-    padding: 30px 0 200px 0;
+    padding: 30px 0 100px 0;
 }
 
 .sent-request {
@@ -75,10 +79,44 @@ header .main-nav:after {
     box-sizing: border-box;
     padding-left: 90px;
 }
+/* container end */
+
+/* button */
+
+/* button end */
+
+/*  container-second   */
+
+.container-second {
+    margin: 0 auto;
+    max-width: 980px;
+    text-align: center;
+    padding: 20px 0 20px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+}
 
 
+.requirement-foto {
+    display: block;
+    width: 100%;
+
+}
+
+.product {
+    margin: 1em 1em;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 10px 5px;
+}
 
 
-
-
-/*    */
+/*  container-second end  */
