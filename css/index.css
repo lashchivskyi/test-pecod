@@ -1,16 +1,16 @@
 body {
     margin: 0;
-	padding: 0;
-	width: 100%;
-	height: auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
 }
+
 
 /* container */
 
 .container {
     margin: 0 auto;
     max-width: 980px;
-
 }
 
 .nav-list {
@@ -36,14 +36,14 @@ header {
     background-image: url("../css/img/1.png");
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 75% auto;
+    background-size: 77% auto;
     height: auto;
     font-size: 12px;
 }
 
 .logo-pecodee {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -68,7 +68,7 @@ header .main-nav:after {
 }
 
 .header-form>div:nth-child(1) {
-    width: 30%;
+    width: 25%;
     float: left;
     margin: 120px 0 30px 0;
 }
@@ -79,11 +79,16 @@ header .main-nav:after {
     box-sizing: border-box;
     padding-left: 90px;
 }
+
+
 /* container end */
+
 
 /* button */
 
+
 /* button end */
+
 
 /*  container-second   */
 
@@ -109,7 +114,6 @@ header .main-nav:after {
     justify-content: space-around;
 }
 
-
 .requirement-foto {
     display: block;
     width: 100%;
@@ -122,18 +126,18 @@ header .main-nav:after {
     box-shadow: 0 0 30px 5px #ebebeb;
     padding: 0px 10px;
     background-color: #fafafa;
-
 }
 
 
 /*  container-second end  */
+
 .container-third {
     background-color: #1ea992;
     background-image: url("../css/img/2.png");
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 55% auto;
-    height: 488px;
+    background-size: 50% auto;
+    color: white;
 }
 
 .cont {
@@ -144,5 +148,13 @@ header .main-nav:after {
 
 .class-help {
     display: flex;
-    text-align: right;
+}
+
+.help {
+    padding-left: 480px;
+}
+
+.help-title {
+    text-align: center;
+    padding-top: 20px;
 }
