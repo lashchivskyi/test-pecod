@@ -5,7 +5,6 @@ body {
     height: auto;
 }
 
-
 /* container */
 
 .container {
@@ -89,7 +88,6 @@ header .main-nav:after {
 
 /* button end */
 
-
 /*  container-second   */
 
 .container-second {
@@ -139,7 +137,6 @@ header .main-nav:after {
     background-repeat: no-repeat;
     background-size: 50% auto;
     color: white;
-    height: 700px;
 }
 
 .cont {
@@ -153,14 +150,14 @@ header .main-nav:after {
 }
 
 .help {
-    padding-left: 680px;
-    padding-right: 50px;
-}
+
+ }
 
 .help-title {
     text-align: center;
     padding-top: 20px;
 }
+
 /*  container third end  */
 
 /*  container for  */
@@ -168,7 +165,6 @@ header .main-nav:after {
 .container-for {
 
     text-align: center;
-    font-weight: bold;
     background-image: url("../css/img/circle-left.png");
     background-position: right;
     background-repeat: no-repeat;
@@ -178,6 +174,7 @@ header .main-nav:after {
 }
 
 .name-offer {
+    font-weight: bold;
     padding-top: 20px;
 }
 
@@ -213,4 +210,65 @@ footer {
      background-image: url("../css/img/img-footer.png");
      background-size: cover;
      height: 500px;
+     color: #ffffff;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.name-contact {
+    text-align: center;
+    padding-top: 120px;
+}
+
+footer a {
+    margin-top: 20px;
+    display: inline-block;
+	width:32px;
+	height:32px;
+	margin-right: 25px;
+}
+
+.css-sprite-linkedin {
+	background:url('../css/img/sotial/linkedin.png') 0px -0px;
+}
+
+.css-sprite-twitter {
+	background:url('../css/img/sotial/twitter.png') -32px -0px;
+}
+
+.css-sprite-fb {
+	background:url('../css/img/sotial/fb.png') -64px -0px;
+}
+
+.css-sprite-linkedin:active, .css-sprite-linkedin:hover{
+	background:url('..css/img/sotial/linkedin-active.png') 0px -0px;
+}
+
+.css-sprite-twitter:active, .css-sprite-twitter:hover{
+	background:url('..css/img/sotial/twiter-active.png') -32px -0px;
+}
+
+.css-sprite-fb:active, .css-sprite-fb:hover{
+	background:url('..css/img/sotial/fb-active.png') -64px -0px;
+}
+
+
+footer section:nth-of-type(1){
+	float: left;
+	padding: 0 15px;
+}
+
+footer section:nth-of-type(2){
+	float: right;
+	padding: 0 15px;
+}
+footer section:nth-of-type(2) h2{
+	text-align: left;
+}
+
+
+
