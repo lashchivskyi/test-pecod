@@ -7,6 +7,15 @@ body {
 
 /* container */
 
+header {
+    background-image: url("../css/img/1.png"),
+                      url("../css/img/circle-right.png");
+    background-position: top right, 0 400px;
+    background-repeat: no-repeat;
+    background-size: 75% auto, 12% auto;
+    font-size: 12px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 980px;
@@ -31,15 +40,6 @@ body {
     color: red;
 }
 
-header {
-    background-image: url("../css/img/1.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 77% auto;
-    height: auto;
-    font-size: 12px;
-}
-
 .logo-pecodee {
     display: block;
     max-width: 80%;
@@ -49,7 +49,7 @@ header {
 .header-form {
     display: flex;
     justify-content: center;
-    padding: 30px 0 100px 0;
+    padding: 60px 0 100px 0;
 }
 
 .sent-request {
@@ -73,18 +73,22 @@ header .main-nav:after {
 }
 
 .header-form>div:nth-child(2) {
-    width: 70%;
+    width: 80%;
     float: right;
     box-sizing: border-box;
-    padding-left: 90px;
+    padding: 10px 0 50px 190px;
 }
-
 
 /* container end */
 
-
 /* button */
 
+/*.circle-right {
+
+    background-size: 20% auto;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 350px;}*/
 
 /* button end */
 
@@ -126,38 +130,50 @@ header .main-nav:after {
     padding: 0px 10px;
     background-color: #fafafa;
 }
+
 /*  container-second end  */
 
 /*  container-third  */
 
 .container-third {
-    background-color: #1ea992;
-    background-image: url("../css/img/2.png");
+    color: white;
+    background: url("../css/img/2.png") #1ea992;
     background-position: left;
     background-repeat: no-repeat;
     background-size: 50% auto;
-    color: white;
+    display: block;
 }
 
-.cont {
+.help {
     margin: 0 auto;
     max-width: 980px;
-    padding: 20px 0 20px;
+    padding-right: 0 0 20px 30px;
+    display: grid;
+    justify-content: end;
 }
 
 .class-help {
     display: flex;
 }
 
-.help {
-
- }
+.container-third p{
+    margin: 0;
+    padding: 30px 10px 30px 20px;
+}
 
 .help-title {
-    text-align: center;
+    text-align: left;
+    margin: 0;
     padding-top: 20px;
 }
 
+#two-four, #two-four {
+    padding-left: 80px;
+}
+
+.one-four {
+    font-size: 40px;
+}
 /*  container third end  */
 
 /*  container for  */
