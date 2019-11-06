@@ -23,12 +23,12 @@
             </nav>
             <div class="header-form">
                 <div class="form">
-                    <p class="sent-request">Sent Request</p>
-                    <form class="feedback-form" method="POST" name="contact">
-                        <input class="feedback-input" id="userName" type="text" name="name" placeholder="Name" required>
-                        <input class="feedback-input" id="userEmail" type="email" name="e-mail" placeholder="E-mail"
-                            required>
-                        <button id="contact-submit" type="submit" value="SENT">SENT</button>
+                    <h2 class="sent-request">Sent Request</h2>
+                    <form>
+                        <input type="text" name="name" placeholder="input your name">
+                        <label for="email">Input Email</label>
+                        <input type="email" name="email" placeholder="example_email@gmail.com">
+                        <input type="submit" value="Sent">
                     </form>
                 </div>
                 <div>
@@ -164,13 +164,13 @@
             <div class="footer-container">
                 <section>
                 <div class="form">
-                    <p class="sent-request">Sent Request</p>
-                    <form class="feedback-form" method="POST" name="contact">
-                        <input class="feedback-input" id="userName" type="text" name="name" placeholder="Name" required>
-                        <input class="feedback-input" id="userEmail" type="email" name="e-mail" placeholder="E-mail"
-                            required>
-                        <button id="contact-submit" type="submit" value="SENT">SENT</button>
-                    </form>
+                    <h2 class="sent-request">Sent Request</h2>
+                        <form>
+                            <input type="text" name="name" placeholder="your name">
+                            <label for="email">Input Email</label>
+                            <input type="email" name="email" placeholder="example_email@gmail.com">
+                            <input type="submit" value="Sent">
+                        </form>
                 </div>
                 </section>
 
@@ -188,9 +188,9 @@
                     </div>
                 </section>
             </div>
-
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
         </footer>
-
 
 
         <script src="js/index.js"></script>

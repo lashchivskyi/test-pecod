@@ -3,6 +3,8 @@ body {
     padding: 0;
     width: 100%;
     height: auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /* container */
@@ -37,7 +39,7 @@ header {
 }
 
 .nav-list a:hover {
-    color: red;
+    color:#fc0202;
 }
 
 .logo-pecodee {
@@ -83,12 +85,51 @@ header .main-nav:after {
 
 /* button */
 
-/*.circle-right {
+form{
+	text-align: center;
+}
 
-    background-size: 20% auto;
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    height: 350px;}*/
+form input:not([type="submit"]){
+    width: 100%;
+	padding: 5px 0;
+	font-size: px;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #1ebca8;
+	outline: none;
+}
+
+form input[type="text"]::placeholder{
+	color: #d0d2d2;
+	text-transform: uppercase;
+}
+
+form input[type="email"]::placeholder{
+	color: #3d3a3a;
+}
+
+form input[type="submit"]{
+	margin: 32px 0;
+	padding: 10px 40px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background: linear-gradient(to right, #fb6a4e, #ff606a);
+	color: #ffffff;
+}
+
+form input[type="submit"]:hover, form input[type="submit"]:active{
+	background: linear-gradient(to left, #fb6a4e, #ff606a);
+	color: #1ebca8;
+	cursor: pointer;
+}
+
+form label{
+	display: block;
+	margin-top: 15px;
+	text-align: left;
+	color:#ffffff;
+}
 
 /* button end */
 
@@ -179,19 +220,18 @@ header .main-nav:after {
 /*  container for  */
 
 .container-for {
-
     text-align: center;
     background-image: url("../css/img/circle-left.png");
-    background-position: right;
+    background-position: top right;
     background-repeat: no-repeat;
     background-size: 10% auto;
     text-transform: uppercase;
-    height: 600px;
+    height: 550px;
 }
 
 .name-offer {
     font-weight: bold;
-    padding-top: 20px;
+    padding:40px 0 20px;
 }
 
 .offer{
@@ -214,7 +254,6 @@ header .main-nav:after {
 
 .offer-foto {
     width: 60%;
-	max-width: 150px;
 	height: auto
 }
 
