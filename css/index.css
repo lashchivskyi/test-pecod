@@ -5,6 +5,7 @@ body {
     height: auto;
     max-width: 1280px;
     margin: 0 auto;
+    font-size: 13px;
 }
 
 
@@ -15,7 +16,6 @@ header {
     background-position: top right, 0 380px;
     background-repeat: no-repeat;
     background-size: 75% auto, 12% auto;
-    font-size: 12px;
 }
 
 .container_header {
@@ -52,7 +52,7 @@ header {
 .header_form {
     display: flex;
     justify-content: center;
-    padding: 60px 0 20px 0;
+    padding: 50px 0 20px 0;
 }
 
 .sent_request {
@@ -81,6 +81,7 @@ header .main_nav:after {
     box-sizing: border-box;
     padding: 0 0 90px 130px;
 }
+
 
 /* container end */
 
@@ -133,6 +134,7 @@ form label {
     color: #1ebca8;
 }
 
+
 /* button end */
 
 
@@ -146,7 +148,7 @@ form label {
 
 .requirement_srting {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .one_product {
@@ -175,6 +177,7 @@ form label {
     background-color: #fafafa;
     align-items: center;
 }
+
 
 /*  container-requirement end  */
 
@@ -222,6 +225,7 @@ form label {
     font-size: 40px;
 }
 
+
 /*  container help end  */
 
 
@@ -234,12 +238,12 @@ form label {
     background-repeat: no-repeat;
     background-size: 10% auto;
     text-transform: uppercase;
-    height: 550px;
+    height: 450px;
 }
 
 .name_offer {
     font-weight: bold;
-    padding: 40px 0 20px;
+    padding: 20px 0 20px;
 }
 
 .offer {
@@ -265,7 +269,8 @@ form label {
     height: auto
 }
 
-/*  container for end */
+
+/*  container offer end */
 
 
 /*  footer  */
@@ -285,7 +290,7 @@ footer {
 
 .name_contact {
     text-align: center;
-    padding-top: 120px;
+    padding-top: 70px;
 }
 
 footer a {
@@ -333,10 +338,6 @@ footer section:nth-of-type(2) {
     padding: 0 15px;
 }
 
-footer section:nth-of-type(2) h2 {
-    text-align: left;
-}
-
 .map {
     padding-top: 20px;
     display: block;
@@ -353,62 +354,116 @@ footer section:nth-of-type(2) h2 {
     height: 35px;
 }
 
+
 /*  footer end  */
 
 @media (max-width: 900px) {
-.header_form>div:nth-child(1) {
-    width: 20%;
-    float: left;
-    margin: 0 0 0 20px;
-    padding: 0;
-}
-
-.header_form>div:nth-child(2) {
-    width: 60%;
-    float: right;
-    box-sizing: border-box;
-    padding: 0 0 50px 85px;
-}
-
-.nav_list a {
-    margin-left: 20px;
-}
-
-header {
-    background-image: url("../css/img/background-fonrs.png"), url("../css/img/circle-right.png");
-    background-position: top right, 0 260px;
-    background-repeat: no-repeat;
-    background-size: 75% auto, 12% auto; 
-}
-
-.header_form {
-    padding: 60px 0 20px 0;
-}
-
-.one_product, .two_product {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.product {
-    margin: 1.5em 2em;
-    padding: 0px 40px;
-}
-
-.container_help {
-    background-image: none;
-    display: flex;
-    justify-content: center;
-}
-.help, .one_product {
-    padding: 0;
-}
+    .header_form>div:nth-child(1) {
+        width: 20%;
+        float: left;
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+    .header_form>div:nth-child(2) {
+        width: 60%;
+        float: right;
+        box-sizing: border-box;
+        padding: 0 0 50px 85px;
+    }
+    .nav_list a {
+        margin-left: 20px;
+    }
+    header {
+        background-image: url("../css/img/background-fonrs.png"), url("../css/img/circle-right.png");
+        background-position: top right, 0 260px;
+        background-repeat: no-repeat;
+        background-size: 75% auto, 12% auto;
+    }
+    .header_form {
+        padding: 60px 0 20px 0;
+    }
+    .one_product,
+    .two_product {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px auto;
+        max-width: 80%;
+    }
+    .product {
+        margin: 1.5em 2em;
+        padding: 0px 40px;
+    }
+    .container_help {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+    }
+    .help,
+    .one_product,
+    .requirement_srting {
+        padding: 0;
+    }
+    .container_offer {
+        height: 450px;
+    }
 }
 
 @media (max-width: 660px) {
-.header_form>div:nth-child(1) {
-    width: 20%;
-    float: left;
-    margin: 0 0 0 20px;
-    padding: 0;
+    header {
+        background-size: 100% 100%, 0;
+    }
+    .header_form {
+        flex-direction: column-reverse;
+        color: white;
+        padding-top: 20px;
+    }
+    .header_form>div:nth-child(1) {
+        width: 35%;
+        margin: 0 auto;
+        padding: 20px 0 50px 0;
+    }
+    .header_form>div:nth-child(2) {
+        width: 60%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .logo_pecodee {
+        margin-left: 30px;
+    }
+    .nav_list {
+        flex-direction: column;
+        float: none;
+        text-align: center;
+        margin: 0;
+        padding-top: 20px;
+    }
+    .one_product,
+    .two_product {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px auto;
+        max-width: 70%;
+    }
+    .container_help {
+        padding: 0 15px 0 15px;
+    }
+    .footer_container {
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+    .name_contact,
+    .footer_container {
+        padding: 0;
+    }
+    footer section:nth-of-type(1) {
+        padding: 0 90px 0 90px;
+    }
+    footer section:nth-of-type(2) {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .name_contact {
+        padding-top: 50px;
+    }
 }
